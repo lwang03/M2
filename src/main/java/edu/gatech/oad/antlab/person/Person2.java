@@ -30,7 +30,8 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-		return input.substring(2) + input.substring(0, 2);
+
+		return input.substring(2) + input.substring(0, 2) + " ";
 	}
 	/**
 	 * Return a string rep of this object
