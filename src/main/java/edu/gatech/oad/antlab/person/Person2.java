@@ -8,7 +8,7 @@ import java.util.Arrays;
  *  returns their name and a
  *  modified string 
  *
- * @author Bob
+ * @author Devashru Patel
  * @version 1.1
  */
 public class Person2 {
@@ -40,7 +40,7 @@ public class Person2 {
             options.add(input.charAt(i));
         }
 		while (!options.isEmpty()) {
-		    random += options.remove(Math.random() * options.size());
+		    random += options.remove((int) (Math.random() * options.size()));
         }
         return random;
 	}
