@@ -5,7 +5,7 @@ package edu.gatech.oad.antlab.person;
  *  returns their name and a
  *  modified string 
  *  
- *  @author Li Wang, GitHub:lwang03
+ *  @author Li Wang, GitHub:lwang03 merge test
  *  @version 1.1
  */
 public class Person1 {
