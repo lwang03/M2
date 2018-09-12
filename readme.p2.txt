@@ -1,2 +1,2 @@
-Name: Devashru Patel
-Email: devashru@gmail.com
+Devashru Patel
+devashru@gatech.edu
