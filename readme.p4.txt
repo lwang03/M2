@@ -1,2 +1,2 @@
-Name: Amin Nadirali
-Email: anadirali@gatech.edu
+Maggie Baxter
+mbaxter31@gatech.edu

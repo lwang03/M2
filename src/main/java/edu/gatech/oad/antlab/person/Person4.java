@@ -5,7 +5,7 @@ package edu.gatech.oad.antlab.person;
  *  returns their name and a
  *  modified string 
  *  
- *  @author Amin Adanirali
+ *  @author Maggie Baxter
  *  @version 1.1
  */
 public class Person4 {
@@ -30,8 +30,13 @@ public class Person4 {
      * @return the modified string
      */
     private String calc(String input) {
-
-      return input.substring(2) + input.substring(0, 2) + " ";
+      String newStr = "";
+      for (int i = 0; i < input.length(); i++) {
+        char letter = input.charAt(i);
+        int ascii = (int) letter;
+        newStr += Character.toString((char) (ascii + 1));
+      }
+      return newStr;
     }
     
     /**
